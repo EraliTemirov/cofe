@@ -148,7 +148,12 @@ a {
   position: absolute;
   box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.5);
   @media screen and (max-width: 1000px) {
-    transform: translate(80px, 20px);
+    transform: translate(100px, 100px);
+    width: 100%;
+    max-width: 600px;
+  }
+    @media screen and (max-width: 780px) {
+    transform: translate(50px, 10px);
     width: 100%;
     max-width: 600px;
   }
